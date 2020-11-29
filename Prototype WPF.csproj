@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Views\Partials\landing-page.xaml.cs">
+      <DependentUpon>landing-page.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +70,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\Partials\landing-page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -96,6 +103,31 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Views\Partials\txt.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image8.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,118 @@
+﻿<UserControl x:Class="Prototype_WPF.Views.Partials.landing_page"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Prototype_WPF.Views.Partials"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920" Background="#D3E3FC">
+    <Grid Margin="0,0,-0.4,0.2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Border CornerRadius="0, 0, 10, 10" Background="#77A6F7" Margin="50,328,430,647.8" Grid.Column="1"/>
+        <Border CornerRadius="0, 0, 10, 10" Background="#77A6F7" Margin="32,328,1032,598.8">
+
+            <TextBlock Margin="10,10,0,10" 
+                HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" TextWrapping="Wrap" FontSize="12" Width="264"><Run FontSize="22" Text="Dortes Strikkeklub"/><LineBreak/><Run/><LineBreak/><Run FontSize="16" Text="Lorum ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat"/></TextBlock>
+
+        </Border>
+        <Image Margin="32,143,1032,751.8" RenderOptions.BitmapScalingMode="HighQuality" Source="/Prototype WPF;component/Images/Image6.png" Stretch="Fill"/>
+        <Border CornerRadius="0, 0, 10, 10" Background="#77A6F7" Margin="65,491,415,497.8" Grid.Column="1"/>
+        <Image Margin="32,588,1032,301.8" RenderOptions.BitmapScalingMode="HighQuality" Source="/Prototype WPF;component/Images/Image3.png" Stretch="Fill"/>
+        <Image Margin="443,143,621,751.8" RenderOptions.BitmapScalingMode="HighQuality" Source="/Prototype WPF;component/Images/Image4.png" Stretch="Fill"/>
+        <Image Margin="854,143,210,751.8" RenderOptions.BitmapScalingMode="HighQuality" Source="/Prototype WPF;component/Images/Image5.png" Stretch="Fill"/>
+        <TextBlock Text="LOKALE ORGANISATIONER" Margin="32,543,0,497.8" 
+            HorizontalAlignment="Left" Foreground="#00887A" FontWeight="Bold" FontSize="24" Width="330" />
+        <TextBlock Text="NYESTE ORGANISATIONER" Margin="32,94,0,944.8" 
+            HorizontalAlignment="Left" Foreground="#00887A" FontWeight="Bold" FontSize="24" Width="343" />
+
+        <Image Margin="443,588,621,301.8" RenderOptions.BitmapScalingMode="HighQuality" Source="/Prototype WPF;component/Images/Image7.png" Stretch="Fill"/>
+        <Image Margin="854,588,210,301.8" RenderOptions.BitmapScalingMode="HighQuality" Source="/Prototype WPF;component/Images/Image8.png" Stretch="Fill"/>
+        <Border CornerRadius="0, 0, 10, 10" Background="#77A6F7" Margin="10,820,470,145.8" Grid.Column="1"/>
+        <Border CornerRadius="0, 0, 10, 10" Background="#77A6F7" Margin="443,328,621,598.8">
+            <TextBlock Margin="10,10,0,10" 
+                HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" TextWrapping="Wrap" FontSize="12" Width="264"><Run FontSize="22" Text="Turtle Surfing"/><LineBreak/><Run/><LineBreak/><Run FontSize="16" Text="Lorum ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat"/></TextBlock>
+
+        </Border>
+        <Border CornerRadius="0, 0, 10, 10" Background="#77A6F7" Margin="854,328,210,598.8">
+            <TextBlock Margin="10,10,0,10" 
+                HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" TextWrapping="Wrap" FontSize="12" Width="264"><Run FontSize="22" Text="Dog sledding for dogs"/><LineBreak/><Run/><LineBreak/><Run FontSize="16" Text="Lorum ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat"/></TextBlock>
+
+        </Border>
+        <Border CornerRadius="0, 0, 10, 10" Background="#77A6F7" Margin="32,778,1032,147.8">
+            <TextBlock Margin="10,10,0,10" 
+                HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" TextWrapping="Wrap" FontSize="12" Width="264"><Run FontSize="22" Text="Extreme Senior Hiking"/><LineBreak/><Run/><LineBreak/><Run FontSize="16" Text="Lorum ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat"/></TextBlock>
+
+        </Border>
+        <Border CornerRadius="0, 0, 10, 10" Background="#77A6F7" Margin="443,779,621,147.8">
+            <TextBlock Margin="10,10,0,10" 
+                HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" TextWrapping="Wrap" FontSize="12" Width="264"><Run FontSize="22" Text="Sørens Rally Bane"/><LineBreak/><Run/><LineBreak/><Run FontSize="16" Text="Lorum ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat"/></TextBlock>
+
+        </Border>
+        <Border CornerRadius="0, 0, 10, 10" Background="#77A6F7" Margin="854,778,210,148.8">
+            <TextBlock Margin="10,10,0,10" 
+                HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" TextWrapping="Wrap" FontSize="12" Width="264"><Run FontSize="22" Text="Elefant ridning i Tarm"/><LineBreak/><Run/><LineBreak/><Run FontSize="16" Text="Lorum ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat"/></TextBlock>
+
+        </Border>
+        <TextBlock Text="EVENTS OG NYHEDER" Margin="38,94,0,942.8" 
+            HorizontalAlignment="Left" Foreground="#00887A" FontWeight="Bold" FontSize="24" Width="343" Grid.Column="1" />
+        <Border CornerRadius="10, 10, 10, 10" Background="#77A6F7" Margin="38,143,44,148.8" Grid.Column="1">
+            <TextBlock Margin="10,10,0,10" 
+                HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" TextWrapping="Wrap" FontSize="12" Width="360"><Run Foreground="#FF00887A" FontSize="22" Text="Husk Vodka Bowl hver torsdag"/><LineBreak/><Run FontSize="22" Text="Gul Kors Danmark"/><LineBreak/><Run/><LineBreak/><Run FontSize="16" Text="Lorum ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat"/></TextBlock>
+
+        </Border>
+
+        <Button Content="+Følg" HorizontalAlignment="Left" Margin="1067,890,0,0" VerticalAlignment="Top" Width="145" Background="#FF00887A" Foreground="#FFFFFF" Height="40" FontSize="20">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="8"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="+Følg" HorizontalAlignment="Left" Margin="659,890,0,0" VerticalAlignment="Top" Width="145" Background="#FF00887A" Foreground="#FFFFFF" Height="40" FontSize="20">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="8"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="+Følg" HorizontalAlignment="Left" Margin="248,890,0,0" VerticalAlignment="Top" Width="145" Background="#FF00887A" Foreground="#FFFFFF" Height="40" FontSize="20">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="8"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="+Følg" HorizontalAlignment="Left" Margin="1067,440,0,0" VerticalAlignment="Top" Width="145" Background="#FF00887A" Foreground="#FFFFFF" Height="40" FontSize="20">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="8"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="+Følg" HorizontalAlignment="Left" Margin="659,440,0,0" VerticalAlignment="Top" Width="145" Background="#FF00887A" Foreground="#FFFFFF" Height="40" FontSize="20">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="8"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="+Følg" HorizontalAlignment="Left" Margin="248,440,0,0" VerticalAlignment="Top" Width="145" Background="#FF00887A" Foreground="#FFFFFF" Height="40" FontSize="20" RenderTransformOrigin="0.597,0.662">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="8"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Se event" HorizontalAlignment="Left" Margin="50,288,0,0" VerticalAlignment="Top" Width="145" Background="#FF00887A" Foreground="#FFFFFF" Height="40" FontSize="20" RenderTransformOrigin="0.597,0.662" Grid.Column="1">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="8"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+    </Grid>
+</UserControl>
