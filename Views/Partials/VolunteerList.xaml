@@ -1,0 +1,205 @@
+﻿<UserControl x:Class="Prototype_WPF.Views.Partials.VolunteerList"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Prototype_WPF.Views.Partials"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920">
+    <Grid Background="#D3E3FC">
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="2*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="10,20,10,30">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="3*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Height="80" Margin="0,0,0,30" Grid.Row="0">
+                    <Border CornerRadius="25" Background="#FFFFFF" Height="80">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                                <Image RenderOptions.BitmapScalingMode="HighQuality" Height="60" Width="60" Source="..\..\Images/search.png" />
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="-20,0,0,0">
+                                <TextBlock FontSize="22" Text="Indtast søgeord" Foreground="Gray"/>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                </StackPanel>
+                <StackPanel Height="200" Margin="0,0,0,30" Grid.Row="1">
+                    <Border CornerRadius="25" Background="#00887A" Height="200" >
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="5" Color="#FFFFFF" Direction="-90"/>
+                        </Border.Effect>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="0" Margin="10,10,10,10">
+                                <Border Margin="0,0,0,0" CornerRadius="40" Background="White" Padding="3">
+                                    <Image RenderOptions.BitmapScalingMode="HighQuality" Height="80" Width="80" Source="..\..\Images/Men-Profile-Image-715x657.png" />
+                                </Border>
+                            </StackPanel>
+
+                            <StackPanel VerticalAlignment="Top" Grid.Column="1" Margin="0,10,0,0">
+                                <StackPanel HorizontalAlignment="Left">
+                                    <TextBlock FontSize="19" Text="Martin Andersen, 36 år" Foreground="White" FontWeight="Bold" Margin="6,0,0,0"/>
+                                    <TextBlock FontSize="17" Padding="0,8,8,0" TextWrapping="Wrap" 
+                                               Text="Som person er jeg altid åben overfor nye input. Jeg fungerer godt i grupper, men jeg arbejder også
+rigtig godt selvstændigt. Jeg er ansvarsbevidst og kan hurtigt tilegne mig ny viden og er nysgerrig. Jeg
+har evnen til at tilpasse mig til nye opgaver ... Læs mere" 
+                                               Foreground="White" Margin="6,0,0,0"/>
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel HorizontalAlignment="Right" Grid.Column="1" Margin="0,10,20,0">
+                                <TextBlock FontSize="19" Text="Viborg" Foreground="White" FontWeight="Bold" Margin="6,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                </StackPanel>
+                <StackPanel Height="200" Margin="0,0,0,30" Grid.Row="2">
+                    <Border CornerRadius="25" Background="#77A6F7" Height="200">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="0" Margin="10,10,10,10">
+                                <Border Margin="0,0,0,0" CornerRadius="40" Background="White" Padding="3">
+                                    <Image RenderOptions.BitmapScalingMode="HighQuality" Height="80" Width="80" Source="..\..\Images/Men-Profile-Image-715x657.png" />
+                                </Border>
+                            </StackPanel>
+
+                            <StackPanel VerticalAlignment="Top" Grid.Column="1" Margin="0,10,0,0">
+                                <StackPanel HorizontalAlignment="Left">
+                                    <TextBlock FontSize="19" Text="Martin Andersen, 36 år" Foreground="White" FontWeight="Bold" Margin="6,0,0,0"/>
+                                    <TextBlock FontSize="17" Padding="0,8,8,0" TextWrapping="Wrap" 
+                                               Text="Som person er jeg altid åben overfor nye input. Jeg fungerer godt i grupper, men jeg arbejder også
+rigtig godt selvstændigt. Jeg er ansvarsbevidst og kan hurtigt tilegne mig ny viden og er nysgerrig. Jeg
+har evnen til at tilpasse mig til nye opgaver ... Læs mere" 
+                                               Foreground="White" Margin="6,0,0,0"/>
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel HorizontalAlignment="Right" Grid.Column="1" Margin="0,10,20,0">
+                                <TextBlock FontSize="19" Text="Viborg" Foreground="White" FontWeight="Bold" Margin="6,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                </StackPanel>
+                <StackPanel Height="200" Margin="0,0,0,30" Grid.Row="3">
+                    <Border CornerRadius="25" Background="#77A6F7" Height="200">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="0" Margin="10,10,10,10">
+                                <Border Margin="0,0,0,0" CornerRadius="40" Background="White" Padding="3">
+                                    <Image RenderOptions.BitmapScalingMode="HighQuality" Height="80" Width="80" Source="..\..\Images/Men-Profile-Image-715x657.png" />
+                                </Border>
+                            </StackPanel>
+
+                            <StackPanel VerticalAlignment="Top" Grid.Column="1" Margin="0,10,0,0">
+                                <StackPanel HorizontalAlignment="Left">
+                                    <TextBlock FontSize="19" Text="Martin Andersen, 36 år" Foreground="White" FontWeight="Bold" Margin="6,0,0,0"/>
+                                    <TextBlock FontSize="17" Padding="0,8,8,0" TextWrapping="Wrap" 
+                                               Text="Som person er jeg altid åben overfor nye input. Jeg fungerer godt i grupper, men jeg arbejder også
+rigtig godt selvstændigt. Jeg er ansvarsbevidst og kan hurtigt tilegne mig ny viden og er nysgerrig. Jeg
+har evnen til at tilpasse mig til nye opgaver ... Læs mere" 
+                                               Foreground="White" Margin="6,0,0,0"/>
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel HorizontalAlignment="Right" Grid.Column="1" Margin="0,10,20,0">
+                                <TextBlock FontSize="19" Text="Viborg" Foreground="White" FontWeight="Bold" Margin="6,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Margin="10,20,30,30" Orientation="Vertical">
+            <StackPanel Margin="0,0,0,30" Orientation="Vertical">
+                <Border CornerRadius="25" Background="#77A6F7">
+                    <Grid Margin="0,0,10,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="4*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="0" Margin="30,30,30,30"  Grid.Row="0">
+                            <Border Margin="0,0,0,0" CornerRadius="100" Background="White" Padding="3">
+                                <Image RenderOptions.BitmapScalingMode="HighQuality" Height="200" Width="200" Source="..\..\Images/Men-Profile-Image-715x657.png" />
+                            </Border>
+                        </StackPanel>
+
+                        <StackPanel VerticalAlignment="Top" Grid.Column="1" Margin="0,10,0,0" Grid.Row="0">
+                            <StackPanel HorizontalAlignment="Left">
+                                <TextBlock FontSize="30" Text="Martin Andersen, 36 år" Foreground="White" FontWeight="Bold" Margin="6,0,0,0"/>
+                                <TextBlock FontSize="24" Padding="0,8,8,0" TextWrapping="Wrap" 
+                                               Text="Som person er jeg altid åben overfor nye input. Jeg fungerer godt i grupper, men jeg arbejder også
+rigtig godt selvstændigt. Jeg er ansvarsbevidst og kan hurtigt tilegne mig ny viden og er nysgerrig. Jeg
+har evnen til at tilpasse mig til nye opgaver og det uventede og byder variation og forandrede krav i
+arbejdet velkommen. Jeg kan håndtere flere typer opgaver og samtidig arbejde under skiftende arbejdsforhold og belastning.
+                                           " 
+                                               Foreground="White" Margin="6,0,0,0"/>
+                                <TextBlock FontSize="24" Padding="0,8,8,0" TextWrapping="Wrap" 
+                                               Text="Som uddannet cand.jur og serviceøkonom har jeg en passion for at yde hjælp til andre, hvad enten
+der er tale om personlige, juridiske eller servicemæssige problemstillinger. Med en energisk og udadvendt personlighed, og en høj grad af arbejdsomhed, løser jeg selvstændigt alle typer opgaver. Jeg
+motiveres positivt af udfordringer og har bl.a. fokus på, at min nye stilling også kan medføre videreuddannelse og udvidelse af mine kompetencer.
+                                           " 
+                                               Foreground="White" Margin="6,0,0,0"/>
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel HorizontalAlignment="Right" Grid.Column="1" Margin="0,10,20,0" Grid.Row="0">
+                            <TextBlock FontSize="30" Text="Viborg" Foreground="White" FontWeight="Bold" Margin="6,0,0,0"/>
+                        </StackPanel>
+                        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="1" Orientation="Vertical">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Grid.Column="0" Margin="30,30,30,30" Orientation="Vertical">
+                                    <TextBlock FontSize="30" Text="Ekspertiser" Foreground="White" FontWeight="Bold" Margin="0,0,0,0"/>
+                                    <TextBlock FontSize="24" Foreground="White" Margin="0,0,0,0" TextWrapping="Wrap"
+                                               Text="Rutineret og dedikeret konsulent med over 10 års erfaring med at hjælpe kunder med at opfylde og overgå forretningsmål. Med dokumenteret ekspertise inden for styring af forretningsdrift, -ledelse, -strategi og -rentabilitet. Erfaring inden for marketing, reklame og videreudvikling af brands. Er dygtig til at håndtere komplekse problemer og udfordringer, samt rådgive kunder på en måde, der forbedrer performance."
+                                               />
+                                </StackPanel>
+                                <StackPanel Grid.Column="1" Margin="30,30,30,30" Orientation="Vertical">
+                                    <TextBlock FontSize="30" Text="Interesser" Foreground="White" FontWeight="Bold" Margin="0,0,0,0"/>
+                                    <TextBlock FontSize="24" Foreground="White"  Margin="0,0,0,0" TextWrapping="Wrap">
+                                        
+Jeg holder kroppen skarp og hjernen klar med mindst tre lange løbeture om ugen. Det giver mig tid til at tænke konstruktivt, og så sparer jeg energi og overskud op til arbejdet.
+Min hemmelige lidenskab er blomster, og jeg har mit eget rosenbed i et hjørne af svigerforældrenes kolonihave. Det giver mig glæde at få ting til at vokse og udvikle sig.
+Familien har sejlsport som vores fælles passion. Vi bruger mange weekends og alle ferier på vandet.
+                                    </TextBlock>
+
+                                </StackPanel>
+                            </Grid>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
