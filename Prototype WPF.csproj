@@ -64,14 +64,14 @@
     <Compile Include="Views\Partials\landing-page.xaml.cs">
       <DependentUpon>landing-page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Partials\LoginLanding2.xaml.cs">
-      <DependentUpon>LoginLanding2.xaml</DependentUpon>
+    <Compile Include="Views\Partials\LoginLanding.xaml.cs">
+      <DependentUpon>LoginLanding.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Partials\OrganisationList.xaml.cs">
       <DependentUpon>OrganisationList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Partials\Profile2.xaml.cs">
-      <DependentUpon>Profile2.xaml</DependentUpon>
+    <Compile Include="Views\Partials\Profile.xaml.cs">
+      <DependentUpon>Profile.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Partials\SignupOrg.xaml.cs">
       <DependentUpon>SignupOrg.xaml</DependentUpon>
@@ -106,7 +106,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Partials\LoginLanding2.xaml">
+    <Page Include="Views\Partials\LoginLanding.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -114,7 +114,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\Partials\Profile2.xaml">
+    <Page Include="Views\Partials\Profile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

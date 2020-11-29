@@ -9,7 +9,15 @@
         Title="MainWindow" Height="1080" Width="1920" ResizeMode="NoResize">
     <Grid>
         <StackPanel>
-            <uc:landing_page/>
+            <uc:Header Panel.ZIndex="1"/>
+            <!--<uc:landing_page/>-->
+			<!--<uc:VolunteerList/>-->
+			<!--<uc:OrganisationList/>-->
+			<!--<uc:EventList/>-->
+			<!--<uc:LoginLanding Margin="0,-70"/>-->
+			<!--<uc:Profile/>-->
+            <!--<uc:SignupOrg Margin="0,-70"/>-->
+			<!--<uc:SignupUser Margin="0,-70"/>-->
         </StackPanel>
     </Grid>
 </Window>

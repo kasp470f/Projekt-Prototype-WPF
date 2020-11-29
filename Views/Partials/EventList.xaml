@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Prototype_WPF.Views.Partials"
+             xmlns:local="clr-namespace:Prototype_WPF.Views.Partials"			 
              mc:Ignorable="d" 
              d:DesignHeight="1080" d:DesignWidth="1920">
 	<Grid Background="#D3E3FC">
@@ -15,12 +15,12 @@
 			<ColumnDefinition Width="220"/>
 		</Grid.ColumnDefinitions>
 
-		<Grid.RowDefinitions>
-			<RowDefinition Height="100"/>
-			<RowDefinition Height="980"/>
-		</Grid.RowDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="980"/>
+        </Grid.RowDefinitions>
 
-		<StackPanel Grid.Column="1" Grid.Row="1">
+        <StackPanel Grid.Column="1" Grid.Row="1">
 			<Border CornerRadius="30" Background="#77A6F7" Height="600">
 				<StackPanel>
 					<TextBlock Text="Tilmeldt Events" FontSize="50" Foreground="White" Margin="130,0,130,100"/>
