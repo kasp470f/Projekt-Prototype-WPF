@@ -55,8 +55,32 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Views\Partials\EventList.xaml.cs">
+      <DependentUpon>EventList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Partials\Header.xaml.cs">
+      <DependentUpon>Header.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Partials\landing-page.xaml.cs">
       <DependentUpon>landing-page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Partials\LoginLanding2.xaml.cs">
+      <DependentUpon>LoginLanding2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Partials\OrganisationList.xaml.cs">
+      <DependentUpon>OrganisationList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Partials\Profile2.xaml.cs">
+      <DependentUpon>Profile2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Partials\SignupOrg.xaml.cs">
+      <DependentUpon>SignupOrg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Partials\SignupUser.xaml.cs">
+      <DependentUpon>SignupUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Partials\VolunteerList.xaml.cs">
+      <DependentUpon>VolunteerList.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -70,9 +94,41 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\Partials\EventList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Partials\Header.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\Partials\landing-page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Partials\LoginLanding2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Partials\OrganisationList.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Partials\Profile2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Partials\SignupOrg.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Partials\SignupUser.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Partials\VolunteerList.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -102,9 +158,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Views\Partials\txt.txt" />
+    <Resource Include="Images\Men-Profile-Image-715x657.png" />
+    <Resource Include="Images\search.png" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Resource Include="Images\Image1.png" />
   </ItemGroup>
@@ -128,6 +184,14 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Image8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\book.png" />
+    <Resource Include="Images\devices.png" />
+    <Resource Include="Images\klokke.png" />
+    <Resource Include="Images\male.png" />
+    <Resource Include="Images\mindmap.png" />
+    <Resource Include="Images\tankeboble.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
