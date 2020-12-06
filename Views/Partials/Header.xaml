@@ -23,23 +23,34 @@
         <Ellipse Grid.Column="1" Fill="White" Width="60" Height="60" HorizontalAlignment="Right"/>
         <TextBlock Text="Websted Navn" Grid.Column="2" FontWeight="Bold"/>
 
-        <Border Grid.Column="4" Background="#006e62" Margin="50,17" BorderBrush="Black" BorderThickness="1.5" CornerRadius="0,10,0,10">
-            <TextBlock Text="Home"/>
+
+
+        <Border Grid.Column="4" Background="#006e62" Margin="40,17" BorderBrush="Black" BorderThickness="1.5" CornerRadius="0,10,0,10">
+            <Button x:Name="Home" Height="60" Width="165" Content="Home" FontFamily="Robotto" FontSize="20" Background="#006e62" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding SetPageContentCommand}" CommandParameter="{Binding Name, RelativeSource={RelativeSource Self}}">
+
+            </Button>
         </Border>
 
-        <Border Grid.Column="5" Background="#006e62" Margin="40,17" BorderBrush="Black" BorderThickness="1.5">
-            <TextBlock Text="Instillinger"/>
+
+        <Border Grid.Column="5" Background="#006e62" Margin="40,17" BorderBrush="Black" BorderThickness="1.5" CornerRadius="0,0,0,00">
+            <Button x:Name="Indstillinger" Height="60" Width="165" Content="Indstillinger" FontFamily="Robotto" FontSize="20" Background="#006e62" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding SetPageContentCommand}" CommandParameter="{Binding Name, RelativeSource={RelativeSource Self}}">
+        
+        </Button>
         </Border>
 
         <Border Grid.Column="6" Background="#006e62" Margin="50,17" BorderBrush="Black" BorderThickness="1.5" CornerRadius="10,0,10,00">
-            <TextBlock Text="Profil"/>
+            <Button x:Name="Profil" Height="60" Width="165" Content="Profil" FontFamily="Robotto" FontSize="20" Background="#006e62" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding SetPageContentCommand}" CommandParameter="{Binding Name, RelativeSource={RelativeSource Self}}">
+
+            </Button>
         </Border>
 
         <TextBlock Grid.Column="7" HorizontalAlignment="Right" Margin="0,0,10,0"  Text="Search" FontWeight="Bold"/>
-        <TextBox Grid.Column="8" Margin="0,20"/>
+        <TextBox Grid.Column="8" Margin="0,20" />
         
         <Border Grid.Column="9" Background="#006e62" Margin="10,17" BorderBrush="Black" BorderThickness="1.5">
-            <TextBlock Text="Log ud"/>
+            <Button x:Name="Logud" Height="60" Width="165" Content=" Log ud" FontFamily="Robotto" FontSize="20" Background="#006e62" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding SetPageContentCommand}" CommandParameter="{Binding Name, RelativeSource={RelativeSource Self}}">
+
+            </Button>
         </Border>
     </Grid>
 

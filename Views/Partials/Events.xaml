@@ -1,0 +1,63 @@
+﻿<Page x:Class="Prototype_WPF.Views.Partials.Events"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Prototype_WPF.Views.Partials"
+      mc:Ignorable="d" 
+      d:DesignHeight="1005" d:DesignWidth="1920"
+      Title="Events">
+
+    <Grid Background="#D3E3FC">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="600"/>
+            <ColumnDefinition Width="280"/>
+            <ColumnDefinition Width="600"/>
+            <ColumnDefinition Width="220"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="980"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <Border CornerRadius="30" Background="#77A6F7" Height="600">
+                <StackPanel>
+                    <TextBlock Text="Tilmeldt Events" FontSize="50" Foreground="White" Margin="130,0,130,100"/>
+                    <Border CornerRadius="25" Background="#00887A" Height="100" Margin="0,0,0,20">
+                        <TextBlock Text="     SIK fodbold turnering d. 1/1-2021 kl 16:30" FontSize="26" Foreground="White" Margin="24,24,-24,10" RenderTransformOrigin="0.501,-0.045" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    </Border>
+                    <Border CornerRadius="25" Background="#00887A" Height="100" Margin="0,0,0,20">
+                        <TextBlock Text="Skive Ro-klub åbent hus d 5/1-2021 kl 15:00" FontSize="26" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                    <Border CornerRadius="25" Background="#00887A" Height="100" Margin="0,0,0,20">
+                        <TextBlock Text="Koncert Skive musik skole d 12/12-2020" FontSize="26" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                    <StackPanel/>
+                    <StackPanel/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+
+        <StackPanel Grid.Column="3" Grid.Row="1">
+            <Border CornerRadius="30" Background="#77A6F7" Height="600">
+                <StackPanel>
+                    <TextBlock Text="Event forslag" FontSize="50" Foreground="White" Margin="130,0,130,100" HorizontalAlignment="Center"/>
+                    <Border CornerRadius="25" Background="#00887A" Height="100" Margin="0,0,0,20">
+                        <TextBlock Text="Skak klub turnering d. 4/1-2021 kl 15:40" FontSize="26" Foreground="White" Margin="24,24,-24,10" RenderTransformOrigin="0.501,-0.045" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                    <Border CornerRadius="25" Background="#00887A" Height="100" Margin="0,0,0,20">
+                        <TextBlock Text="Cold Hawaii åbenthus d 3/1-2021 kl 15:00" FontSize="26" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                    <Border CornerRadius="25" Background="#00887A" Height="100" Margin="0,0,0,20">
+                        <TextBlock Text="Sigurds bjørnetime koncert d 20/12-2020 kl 13:20" FontSize="26" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+    </Grid>
+</Page>

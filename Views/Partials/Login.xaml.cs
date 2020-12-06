@@ -1,5 +1,4 @@
-﻿using Prototype_WPF.ViewModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,23 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Prototype_WPF
+namespace Prototype_WPF.Views.Partials
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Login.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Login : Page
     {
-        public MainWindow()
+        public Login()
         {
             InitializeComponent();
-            MainWindowViewModel mvvm = new MainWindowViewModel();
-            DataContext = mvvm;
-        }
-
-        private void Header_Loaded(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

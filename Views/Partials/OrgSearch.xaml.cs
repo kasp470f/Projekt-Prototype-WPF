@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Prototype_WPF.Views.Partials
 {
     /// <summary>
-    /// Interaction logic for VolunteerList.xaml
+    /// Interaction logic for OrgSearch.xaml
     /// </summary>
-    public partial class Profile : UserControl
+    public partial class OrgSearch : Page
     {
-        public Profile()
+        public OrgSearch()
         {
             InitializeComponent();
         }

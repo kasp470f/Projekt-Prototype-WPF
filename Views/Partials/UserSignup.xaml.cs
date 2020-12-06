@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Prototype_WPF.Views.Partials
 {
     /// <summary>
-    /// Interaction logic for EventList.xaml
+    /// Interaction logic for UserSignup.xaml
     /// </summary>
-    public partial class EventList : UserControl
+    public partial class UserSignup : Page
     {
-        public EventList()
+        public UserSignup()
         {
             InitializeComponent();
         }

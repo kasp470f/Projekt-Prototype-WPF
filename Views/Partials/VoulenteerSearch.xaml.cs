@@ -15,10 +15,12 @@ using System.Windows.Shapes;
 
 namespace Prototype_WPF.Views.Partials
 {
-
-    public partial class LoginLanding : UserControl
+    /// <summary>
+    /// Interaction logic for VoulenteerSearch.xaml
+    /// </summary>
+    public partial class VoulenteerSearch : Page
     {
-        public LoginLanding()
+        public VoulenteerSearch()
         {
             InitializeComponent();
         }

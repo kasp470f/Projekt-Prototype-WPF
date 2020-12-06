@@ -6,18 +6,11 @@
         xmlns:local="clr-namespace:Prototype_WPF"
         xmlns:uc="clr-namespace:Prototype_WPF.Views.Partials"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1080" Width="1920" ResizeMode="NoResize">
+        Title="MainWindow" Height="1080" Width="1920">
     <Grid>
         <StackPanel>
-            <uc:Header Panel.ZIndex="1"/>
-            <!--<uc:landing_page/>-->
-			<!--<uc:VolunteerList/>-->
-			<!--<uc:OrganisationList/>-->
-			<!--<uc:EventList/>-->
-			<!--<uc:LoginLanding Margin="0,-70"/>-->
-			<!--<uc:Profile/>-->
-            <!--<uc:SignupOrg Margin="0,-70"/>-->
-			<!--<uc:SignupUser Margin="0,-70"/>-->
+            <uc:Header Panel.ZIndex="1" Loaded="Header_Loaded"/>
+            <Frame Content="{Binding PageContent}" Name="PageContentFrame" NavigationUIVisibility="Hidden"></Frame>
         </StackPanel>
     </Grid>
 </Window>

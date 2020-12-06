@@ -24,5 +24,7 @@ namespace Prototype_WPF.Views.Partials
         {
             InitializeComponent();
         }
+
+
     }
 }

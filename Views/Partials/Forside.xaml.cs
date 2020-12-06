@@ -16,14 +16,13 @@ using System.Windows.Shapes;
 namespace Prototype_WPF.Views.Partials
 {
     /// <summary>
-    /// Interaction logic for landing_page.xaml
+    /// Interaction logic for Forside.xaml
     /// </summary>
-    public partial class landing_page : UserControl
+    public partial class Forside : Page
     {
-        public landing_page()
+        public Forside()
         {
             InitializeComponent();
         }
-
     }
 }

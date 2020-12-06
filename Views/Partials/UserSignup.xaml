@@ -1,0 +1,84 @@
+﻿<Page x:Class="Prototype_WPF.Views.Partials.UserSignup"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Prototype_WPF.Views.Partials"
+      mc:Ignorable="d" 
+      d:DesignHeight="1005" d:DesignWidth="1920"
+      Title="UserSignup">
+
+    <Grid Background="#D3E3FC">
+        <Grid Margin="150,75,150,0"  Background="#6891d9">
+            <Grid Margin="100">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="First Name" FontSize="20" Grid.Column="0" Grid.Row="0" Foreground="White" HorizontalAlignment="Center"/>
+                <TextBlock Text="Middle Name" FontSize="20" Grid.Column="0" Grid.Row="1" Foreground="White" HorizontalAlignment="Center"/>
+                <TextBlock Text="Last Name" FontSize="20" Grid.Column="0" Grid.Row="2" Foreground="White" HorizontalAlignment="Center"/>
+                <TextBox Grid.Row="0" Grid.Column="1" Margin="4"/>
+                <TextBox Grid.Row="1" Grid.Column="1" Margin="4"/>
+                <TextBox Grid.Row="2" Grid.Column="1" Margin="4"/>
+
+                <TextBlock Text="Gender" FontSize="20" Grid.Column="0" Grid.Row="4" Foreground="White" HorizontalAlignment="Center"/>
+                <TextBlock Text="Birthday" FontSize="20" Grid.Column="0" Grid.Row="5" Foreground="White" HorizontalAlignment="Center"/>
+                <TextBlock Text="City" FontSize="20" Grid.Column="0" Grid.Row="6" Foreground="White" HorizontalAlignment="Center"/>
+                <TextBlock Text="Phone" FontSize="20" Grid.Column="0" Grid.Row="7" Foreground="White" HorizontalAlignment="Center"/>
+                <TextBox Grid.Row="4" Grid.Column="1" Margin="4"/>
+                <TextBox Grid.Row="5" Grid.Column="1" Margin="4" Width="200" HorizontalAlignment="Left"/>
+                <TextBox Grid.Row="6" Grid.Column="1" Margin="4"/>
+                <TextBox Grid.Row="7" Grid.Column="1" Margin="4"/>
+
+                <TextBlock Text="Password" FontSize="20" Grid.Column="0" Grid.Row="9" Foreground="White" HorizontalAlignment="Center"/>
+                <TextBlock Text="Repeat Password" FontSize="20" Grid.Column="0" Grid.Row="10" Foreground="White" HorizontalAlignment="Center"/>
+                <TextBlock Text="Email" FontSize="20" Grid.Column="0" Grid.Row="11" Foreground="White" HorizontalAlignment="Center"/>
+                <TextBox Grid.Row="9" Grid.Column="1" Margin="4"/>
+                <TextBox Grid.Row="10" Grid.Column="1" Margin="4"/>
+                <TextBox Grid.Row="11" Grid.Column="1" Margin="4"/>
+                <Button Content="Create Account" Margin="20,5" Width="150" FontSize="20" Grid.Row="12" Grid.ColumnSpan="2"/>
+
+                <Grid Margin="100,0" Background="#6891d9" Grid.Column="2" Grid.RowSpan="20" Height="800" >
+                    <Border Padding="25" Background="#466291">
+                        <StackPanel >
+                            <TextBlock Text="For organisationer" Foreground="White" FontSize="30" HorizontalAlignment="Center" FontWeight="Bold"/>
+                            <TextBlock TextWrapping="Wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc est sem, tincidunt ut justo eget, sagittis convallis lectus. Maecenas aliquam magna feugiat magna mattis, non scelerisque leo fermentum. Pellentesque molestie mauris blandit arcu eleifend vulputate. Nullam ut odio sodales, semper magna imperdiet, ullamcorper nunc. Suspendisse congue consequat felis rutrum lacinia. Fusce nec risus eget justo hendrerit porttitor ac et velit. Integer eget aliquet urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut lobortis et orci quis pharetra.
+
+Curabitur sagittis urna volutpat, blandit mauris congue, sagittis odio. Nullam a tortor ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non nisl accumsan, porta turpis non, molestie elit. Donec feugiat viverra lacus semper placerat. Phasellus nec massa in leo viverra venenatis eget quis leo. Ut at arcu felis. Ut mi diam, auctor et mi nec, vestibulum ultrices quam. Donec vestibulum pellentesque scelerisque. Vivamus nec ipsum sed leo pharetra volutpat vitae quis ligula. Phasellus finibus sapien eu ipsum egestas venenatis. Duis faucibus, tellus id finibus sodales, lectus nisi consectetur justo, a ornare mi elit vitae nunc.
+
+Pellentesque quis ipsum vitae nisl fermentum cursus. Integer porttitor nulla vitae massa ullamcorper vulputate. Cras sit amet elit ut eros luctus viverra. Praesent convallis tincidunt condimentum. Vivamus sed vehicula purus, non dictum urna. Fusce nec justo quis arcu ultricies luctus. Pellentesque lorem eros, auctor et elit vel, pellentesque vehicula libero. Donec fringilla felis libero, vitae luctus nulla cursus id. Mauris accumsan mauris eget elit ultricies tincidunt. Proin et diam eget ante tincidunt volutpat. Maecenas accumsan bibendum quam in faucibus. Ut semper suscipit tortor, in scelerisque risus ullamcorper ac. Vivamus enim velit, ultrices at odio auctor, interdum porta dolor.
+
+Cras elit elit, convallis efficitur neque eget, venenatis consequat quam. Vestibulum faucibus condimentum fermentum. Praesent accumsan felis nibh, sit amet rhoncus lectus ultricies vel. Fusce tincidunt imperdiet sapien, in tincidunt enim pharetra ut. Aenean metus enim, rutrum eu est nec, commodo pharetra elit. Proin sit amet interdum enim. Mauris vitae bibendum sapien. Nam venenatis risus eget nisl tempus, a rhoncus nunc tristique. Quisque vitae lacus dapibus diam commodo hendrerit. Quisque ligula lorem, consectetur vestibulum commodo eu, venenatis eget nunc. Curabitur eget rhoncus velit. Nullam orci arcu, dictum rutrum sagittis in, pharetra eu magna. Curabitur posuere mauris sit amet est consequat mattis. Fusce euismod laoreet lectus ut posuere. Quisque magna tortor, tincidunt ut orci id, fringilla placerat mi. Cras scelerisque orci nec felis auctor lobortis.
+
+Mauris pretium finibus finibus. Mauris sollicitudin ut augue ut consequat. Sed at justo blandit nisi cursus scelerisque. In ullamcorper elementum sapien, ut malesuada nisl. Maecenas mauris mi, maximus non eros quis, gravida convallis libero. Mauris sit amet urna felis. Duis eget euismod nisi, sit amet tincidunt justo. Quisque tincidunt sit amet nisl et egestas. Suspendisse potenti. Phasellus et erat nec tortor pharetra convallis. Nullam posuere nibh vel sem bibendum, quis euismod lacus vestibulum. Pellentesque rhoncus ligula erat, ut porta dui aliquam at. Nam dignissim neque nulla, ut vestibulum dolor cursus vel. Nam porttitor ante vel orci tincidunt, nec porta magna tempor. Phasellus vestibulum velit metus, a fermentum turpis consequat pharetra. Cras finibus nunc nec rhoncus scelerisque.</TextBlock>
+                            <Button Content="Create Organisation Account" Margin="20,20" Width="300" FontSize="20" Grid.Row="12" Grid.ColumnSpan="2"/>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
