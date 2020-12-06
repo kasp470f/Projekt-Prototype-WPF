@@ -13,7 +13,6 @@ namespace Prototype_WPF.ViewModels
 {
     class MainWindowViewModel : INotifyPropertyChanged
     {
-        public string Title { get { return "Applikation X"; } }
 
         public Page PageContent { get; set; }
 
