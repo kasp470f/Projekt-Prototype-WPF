@@ -44,9 +44,13 @@
             </Button>
         </Border>
 
-        <TextBlock Grid.Column="7" HorizontalAlignment="Right" Margin="0,0,10,0"  Text="Search" FontWeight="Bold"/>
-        <TextBox Grid.Column="8" Margin="0,20" />
-        
+
+        <Border Grid.Column="8" Background="#006e62" Margin="70,17" BorderBrush="Black" BorderThickness="1.5">
+            <Button x:Name="Search" Height="60" Width="165" Content="Search" FontFamily="Robotto" FontSize="20" Background="#006e62" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding SetPageContentCommand}" CommandParameter="{Binding Name, RelativeSource={RelativeSource Self}}">
+
+            </Button>
+        </Border>
+
         <Border Grid.Column="9" Background="#006e62" Margin="10,17" BorderBrush="Black" BorderThickness="1.5">
             <Button x:Name="Logud" Height="60" Width="165" Content=" Log ud" FontFamily="Robotto" FontSize="20" Background="#006e62" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding SetPageContentCommand}" CommandParameter="{Binding Name, RelativeSource={RelativeSource Self}}">
 

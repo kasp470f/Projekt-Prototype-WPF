@@ -44,6 +44,9 @@ namespace Prototype_WPF.ViewModels
                 case "Logud":
                     PageContent = new Login();
                     break;
+                case "Search":
+                    PageContent = new VoulenteerSearch();
+                    break;
                 default:
                     PageContent = new Forside();
                     break;
