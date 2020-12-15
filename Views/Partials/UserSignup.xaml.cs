@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Prototype_WPF.UserData;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,6 +28,26 @@ namespace Prototype_WPF.Views.Partials
 
         private void CreateAccount_Click(object sender, RoutedEventArgs e)
         {
+            User user = new User();
+            if (Password.Text == RepeatPassword.Text)
+            {
+                user.FirstName = FirstName.Text;
+                user.MiddleName = MiddleName.Text;
+                user.LastName = LastName.Text;
+                user.Gender = Gender.Text;
+                user.Birthday = Birthday.Text;
+                user.City = City.Text;
+                user.Phone = Phone.Text;
+                user.Password = Password.Text;
+                user.Email = Email.Text;
+
+                MessageBox.Show(user.FirstName);
+            }
+            else
+            {
+                MessageBox.Show("Jimbo");
+            }
+
 
         }
     }

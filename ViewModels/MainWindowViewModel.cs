@@ -38,7 +38,7 @@ namespace Prototype_WPF.ViewModels
                     PageContent = new Forside();
                     break;
                 case "Profil":
-                    PageContent = new UserProfile();
+                    PageContent = new LoginUser();
                     break;
                 case "OpretBruger":
                     PageContent = new UserSignup();
