@@ -40,8 +40,8 @@ namespace Prototype_WPF.ViewModels
                 case "Profil":
                     PageContent = new UserProfile();
                     break;
-                case "Logud":
-                    PageContent = new Login();
+                case "OpretBruger":
+                    PageContent = new UserSignup();
                     break;
                 case "Search":
                     PageContent = new VoulenteerSearch();

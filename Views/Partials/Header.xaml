@@ -52,7 +52,7 @@
         </Border>
 
         <Border Grid.Column="9" Background="#006e62" Margin="10,17" BorderBrush="Black" BorderThickness="1.5">
-            <Button x:Name="Logud" Height="60" Width="165" Content=" Log ud" FontFamily="Robotto" FontSize="20" Background="#006e62" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding SetPageContentCommand}" CommandParameter="{Binding Name, RelativeSource={RelativeSource Self}}">
+            <Button x:Name="OpretBruger" Height="60" Width="165" Content="Opret profil" FontFamily="Robotto" FontSize="20" Background="#006e62" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding SetPageContentCommand}" CommandParameter="{Binding Name, RelativeSource={RelativeSource Self}}">
 
             </Button>
         </Border>
