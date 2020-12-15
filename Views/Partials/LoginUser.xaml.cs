@@ -33,12 +33,11 @@ namespace Prototype_WPF.Views.Partials
             if (Password.Text == PredefinedPassword && Email.Text == EmailLogin)
             {
 
-
-                MessageBox.Show("Jango");
+                MessageBox.Show("Login successful");
             }
             else
             {
-                MessageBox.Show("Jimbo");
+                MessageBox.Show("Incorrect credentials");
             }
 
 

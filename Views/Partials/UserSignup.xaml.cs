@@ -45,7 +45,7 @@ namespace Prototype_WPF.Views.Partials
             }
             else
             {
-                MessageBox.Show("Jimbo");
+                MessageBox.Show("Password must match");
             }
 
 
