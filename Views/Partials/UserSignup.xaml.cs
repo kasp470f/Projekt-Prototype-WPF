@@ -24,5 +24,10 @@ namespace Prototype_WPF.Views.Partials
         {
             InitializeComponent();
         }
+
+        private void CreateAccount_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

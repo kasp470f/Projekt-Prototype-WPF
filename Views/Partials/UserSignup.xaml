@@ -59,7 +59,7 @@
                 <TextBox Grid.Row="9" Grid.Column="1" Margin="4"/>
                 <TextBox Grid.Row="10" Grid.Column="1" Margin="4"/>
                 <TextBox Grid.Row="11" Grid.Column="1" Margin="4"/>
-                <Button Content="Create Account" Margin="20,5" Width="150" FontSize="20" Grid.Row="12" Grid.ColumnSpan="2"/>
+                <Button Name="CreateAccount" Content="Create Account" Margin="20,5" Width="150" FontSize="20" Grid.Row="12" Grid.ColumnSpan="2" Click="CreateAccount_Click"/>
 
                 <Grid Margin="100,0" Background="#6891d9" Grid.Column="2" Grid.RowSpan="20" Height="800" >
                     <Border Padding="25" Background="#466291">
